@@ -4,20 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pradipta Saha - Electrical & Automation Engineer with 7+ years experience in automation systems, robotics, and AI. View my portfolio, projects, and publications.">
-    <meta name="keywords" content="Electrical Engineer, Automation, Robotics, AI, Machine Learning, SCADA, PLC, Siemens, ABB">
+    <meta name="description"
+        content="Pradipta Saha - Electrical & Automation Engineer with 7+ years experience in automation systems, robotics, and AI. View my portfolio, projects, and publications.">
+    <meta name="keywords"
+        content="Electrical Engineer, Automation, Robotics, AI, Machine Learning, SCADA, PLC, Siemens, ABB">
     <meta name="author" content="Pradipta Saha">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Pradipta Saha | Electrical & Automation Engineer Portfolio">
-    <meta property="og:description" content="Explore my professional experience in automation systems, robotics projects, and AI research.">
-    <meta property="og:image" content="profile.jpg">
+    <meta property="og:description"
+        content="Explore my professional experience in automation systems, robotics projects, and AI research.">
+    <meta property="og:image" content="profile.jpeg">
     <meta property="og:type" content="website">
     <title>Pradipta Saha | Electrical & Automation Engineer</title>
-    <link rel="icon" type="image/jpeg" href="profile.jpg">
+    <link rel="icon" type="image/jpeg" href="profile.jpeg">
     <link rel="canonical" href="https://pradipta-saha.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Segoe+UI:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Segoe+UI:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+    </style>
 </head>
 
 <body>
@@ -42,13 +49,18 @@
         </div>
     </header>
 
+    <div class="theme-toggle-container">
+        <button id="themeToggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
     <!-- HERO -->
     <section id="home">
         <div class="container">
             <div class="hero-content">
                 <div class="profile-img-container">
-                    <!-- Ensure profile.jpg is in the same folder, otherwise uses fallback color -->
-                    <img src="profile.jpg" alt="Pradipta Saha" class="profile-img"
+                    <img src="profile.jpeg" alt="Pradipta Saha" class="profile-img"
                         onerror="this.style.display='none';this.parentElement.style.width='300px';this.parentElement.style.height='300px';this.parentElement.style.background='#ccc';this.parentElement.style.borderRadius='50%';this.parentElement.style.border='5px solid #3498db'">
                 </div>
                 <div class="hero-text">
@@ -64,12 +76,25 @@
                     </div>
 
                     <p style="text-align: justify;">
-                        A passionate Electrical and Electronics Engineer with a strong interest in Automation, Robotics, and AI. With over 7 years of experience in the automation sector, he has led commissioning teams at Siemens and ABB, working on industrial systems up to 400kV levels.
+                        A passionate Electrical and Electronics Engineer with a strong interest in Automation, Robotics,
+                        and AI. With over 8 years of experience in the industrial and substation automation sector, he has 
+                        worked in various roles in some of the industry leaders like Siemens and ABB. He has a proven track record of
+                        successfully executing complex projects involving PLC, SCADA, and HMI systems. <br><br>
+                        Beyond professional work, Pradipta has contributed in research and development in the
+                        fields of computer vision and machine learning. He has contributed to several publications and is
+                        always eager to explore new technologies and methodologies to push the boundaries of what's
+                        possible in his field.
+
                     </p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/pradiptasaha999/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/pradiptasaha999" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://scholar.google.com/citations?user=1oJ4CjgAAAAJ&hl=en" aria-label="GitHub"><i class="fa-solid fa-user-graduate"></i></a>
+                        <a href="https://www.linkedin.com/in/pradiptasaha999/" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/pradiptasaha999" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=1oJ4CjgAAAAJ&hl=en"
+                            aria-label="Google Scholar"><i class="fas fa-bookmark"></i></a>
+
+
                     </div>
                 </div>
             </div>
@@ -145,6 +170,88 @@
         <div class="container">
             <h2 class="section-title">Projects</h2>
 
+                        <!-- Academic Projects -->
+            <div class="project-category">
+                <h3>Academic & Undergraduate Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <p>Non-invasive hemoglobin measurement from conjunctiva image using image processing.</p>
+                        <div class="tech-stack">Python, OpenCV, Raspberry-pi</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Design, fabrication and performance evaluation of a three electrode ECG recorder.</p>
+                        <div class="tech-stack">Emgu CV, C#, Arduino</div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.youtube.com/watch?v=gyS518tq-84" target="_blank"
+                            style="text-decoration: none; color: inherit;">
+                            <p>KINECT based robot that responds to attention based on eye contact. <i
+                                    class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i>
+                            </p>
+                            <div class="tech-stack">Emgu CV, C#, Arduino</div>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <p>Lung cancer detection using image processing and machine learning.</p>
+                        <div class="tech-stack">Python, OpenCV</div>
+                    </div>
+                    <div class="project-card">
+                        <p>OCR for Bangla Dotted Number using SVM.</p>
+                        <div class="tech-stack">Python, OpenCV</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Smart door lock system using face recognition.</p>
+                        <div class="tech-stack">OpenCV, Python, Raspberry Pi</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Smart E-Voting system using fingerprint sensor and Arduino.</p>
+                        <div class="tech-stack">Arduino</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Software for digitization of electrocardiogram (ECG) signals and comparison.</p>
+                        <div class="tech-stack">Emgu CV, C#</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Ultrasonic eye for blind using PIC and ultrasonic sensor.</p>
+                        <div class="tech-stack">PIC Microcontroller, C</div>
+                    </div>
+                    <div class="project-card">
+                        <p>IoT based smart taxi fare meter and electronic payment system.</p>
+                        <div class="tech-stack">Arduino, Python, IoT</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Automatic product sorting machine using micro-controller.</p>
+                        <div class="tech-stack">PIC Microcontroller, C</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Smart traffic light which can detect emergency vehicles.</p>
+                        <div class="tech-stack">Arduino</div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://www.youtube.com/watch?v=N2Q8v2NHMZY" target="_blank"
+                            style="text-decoration: none; color: inherit;">
+                            <p>Maze solver robot. <i class="fas fa-external-link-alt"
+                                    style="font-size: 0.8em; margin-left: 8px;"></i></p>
+                            <div class="tech-stack">Arduino</div>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <p>Voice Command Robot.</p>
+                        <div class="tech-stack">Arduino, C#</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Robo Nurse — an autonomous nursing assistance.</p>
+                        <div class="tech-stack">Arduino, Python</div>
+                    </div>
+                    <div class="project-card">
+                        <p>Development of tele-operated robotic hand observing movement of the human hand using gyro.
+                        </p>
+                        <div class="tech-stack">Arduino</div>
+                    </div>
+                </div>
+            </div>
+
+
             <!-- Professional Projects -->
             <div class="project-category">
                 <h3>Professional Projects</h3>
@@ -157,6 +264,12 @@
                     </div>
                     <div class="project-card">
                         <p>BATB 5MW UPS installation and commissioning using ABB DPA 500 & Li-Ion Battery.</p>
+                    </div>
+                    <div class="project-card">
+                        <p>Substation Automation System for Mirsorai 230kV/33kV substation.</p>
+                    </div>
+                    <div class="project-card">
+                        <p>Substation Automation System for 230kV/11kV BSPL, KPL and 230kV INTERMEDIATE Switching Substation.</p>
                     </div>
                     <div class="project-card">
                         <p>Remote SCADA System for Pump Station for WASA.</p>
@@ -180,81 +293,10 @@
                         <p>Vision based product counting and condition monitoring system.</p>
                     </div>
                     <div class="project-card">
-                        <p>Substation Automation for multiple DPDC & NESCO sites (33kV/11kV).</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Academic Projects -->
-            <div class="project-category">
-                <h3>Academic & Undergraduate Projects</h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <p>Non-invasive hemoglobin measurement from conjunctiva image using image processing.</p>
-                        <div class="tech-stack">Python, OpenCV</div>
+                        <p>Substation Automation for multiple PDB, WZPDCL, DPDC & NESCO sites (33kV/11kV).</p>
                     </div>
                     <div class="project-card">
-                        <p>Design, fabrication and performance evaluation of a three electrode ECG recorder.</p>
-                    </div>
-                    <div class="project-card">
-                        <a href="https://www.youtube.com/watch?v=gyS518tq-84" target="_blank" style="text-decoration: none; color: inherit;">
-                            <p>KINECT based robot that responds to attention based on eye contact. <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></p>
-                            <div class="tech-stack">Emgu CV, C#</div>
-                        </a>
-                    </div>
-                    <div class="project-card">
-                        <p>Lung cancer detection using image processing and machine learning.</p>
-                        <div class="tech-stack">Python, OpenCV</div>
-                    </div>
-                    <div class="project-card">
-                        <p>OCR for Bangla Dotted Number using SVM.</p>
-                        <div class="tech-stack">Python, OpenCV</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Smart door lock system using face recognition.</p>
-                        <div class="tech-stack">OpenCV, Python, Raspberry Pi</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Smart E-Voting system using fingerprint sensor and Arduino.</p>
-                        <div class="tech-stack">Arduino, C++</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Software for digitization of electrocardiogram (ECG) signals and comparison.</p>
-                        <div class="tech-stack">Emgu CV, C#</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Ultrasonic eye for blind using PIC and ultrasonic sensor.</p>
-                        <div class="tech-stack">PIC Microcontroller, C</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Quadcopter for surveillance purpose.</p>
-                        <div class="tech-stack">Arduino, Python</div>
-                    </div>
-                    <div class="project-card">
-                        <p>IoT based smart taxi fare meter and electronic payment system.</p>
-                        <div class="tech-stack">Arduino, Python, IoT</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Automatic product sorting machine using micro-controller.</p>
-                        <div class="tech-stack">Microcontroller, C</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Smart traffic light which can detect emergency vehicles.</p>
-                        <div class="tech-stack">Arduino, Python, OpenCV</div>
-                    </div>
-                    <div class="project-card">
-                        <a href="https://www.youtube.com/watch?v=N2Q8v2NHMZY" target="_blank" style="text-decoration: none; color: inherit;">
-                            <p>Voice Command Robot & Maze solver robot. <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></p>
-                            <div class="tech-stack">Arduino, C++</div>
-                        </a>
-                    </div>
-                    <div class="project-card">
-                        <p>Robo Nurse — an autonomous nursing assistance.</p>
-                        <div class="tech-stack">Arduino, Python</div>
-                    </div>
-                    <div class="project-card">
-                        <p>Development of tele-operated robotic hand observing movement of the human hand using gyro.</p>
-                        <div class="tech-stack">Arduino, C++</div>
+                        <p>PLC and HMI programming for bottle filling and sealing machine.</p>
                     </div>
                 </div>
             </div>
@@ -276,36 +318,47 @@
             <h3 style="color: var(--accent-color); margin-bottom: 20px;">Publications</h3>
 
             <div class="pub-item">
-                <a href="https://doi.org/10.1016/j.procs.2023.01.210" target="_blank" style="text-decoration: none; color: inherit;">
-                    <h4>Dzongkha Handwritten Digit Recognition using Machine Learning Techniques <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
+                <a href="https://doi.org/10.1016/j.procs.2023.01.210" target="_blank"
+                    style="text-decoration: none; color: inherit;">
+                    <h4>Dzongkha Handwritten Digit Recognition using Machine Learning Techniques <i
+                            class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
                     <p>ICMLDE, Sep 8, 2022</p>
                 </a>
             </div>
 
             <div class="pub-item">
-                <a href="https://ieeexplore.ieee.org/document/8636801" target="_blank" style="text-decoration: none; color: inherit;">
-                    <h4>Design and Implementation of a Non-invasive Jaundice Detection and Total Serum Bilirubin Measurement System <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
+                <a href="https://ieeexplore.ieee.org/document/8636801" target="_blank"
+                    style="text-decoration: none; color: inherit;">
+                    <h4>Design and Implementation of a Non-invasive Jaundice Detection and Total Serum Bilirubin
+                        Measurement System <i class="fas fa-external-link-alt"
+                            style="font-size: 0.8em; margin-left: 8px;"></i></h4>
                     <p>ICECE, Dec 21, 2018</p>
                 </a>
             </div>
 
             <div class="pub-item">
-                <a href="https://doi.org/10.1109/IC4ME2.2018.8465617" target="_blank" style="text-decoration: none; color: inherit;">
-                    <h4>IoT and Computer Vision Based Driver Safety Monitoring System with Risk Prediction <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
+                <a href="https://doi.org/10.1109/IC4ME2.2018.8465617" target="_blank"
+                    style="text-decoration: none; color: inherit;">
+                    <h4>IoT and Computer Vision Based Driver Safety Monitoring System with Risk Prediction <i
+                            class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
                     <p>IC4ME2, Feb 9, 2018</p>
                 </a>
             </div>
 
             <div class="pub-item">
-                <a href="https://ieeexplore.ieee.org/document/7856500" target="_blank" style="text-decoration: none; color: inherit;">
-                    <h4>Design, Fabrication and Performance Evaluation of a Three Electrode ECG Recorder <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
+                <a href="https://ieeexplore.ieee.org/document/7856500" target="_blank"
+                    style="text-decoration: none; color: inherit;">
+                    <h4>Design, Fabrication and Performance Evaluation of a Three Electrode ECG Recorder <i
+                            class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
                     <p>ICISET / IEEE Xplore, Oct 28, 2016</p>
                 </a>
             </div>
 
             <div class="pub-item">
-                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1oJ4CjgAAAAJ&citation_for_view=1oJ4CjgAAAAJ:2osOgNQ5qMEC" target="_blank" style="text-decoration: none; color: inherit;">
-                    <h4>Development of a Tele-Operated Robotic Hand Observing Human Hand Movement Using a Gyro <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1oJ4CjgAAAAJ&citation_for_view=1oJ4CjgAAAAJ:2osOgNQ5qMEC"
+                    target="_blank" style="text-decoration: none; color: inherit;">
+                    <h4>Development of a Tele-Operated Robotic Hand Observing Human Hand Movement Using a Gyro <i
+                            class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 8px;"></i></h4>
                     <p>ICMERE 2015, Nov 26, 2015</p>
                 </a>
             </div>
@@ -435,12 +488,19 @@
                 <!-- About Column -->
                 <div class="footer-col">
                     <h3 style="font-size: 1.8em; margin-bottom: 10px;">Pradipta Saha</h3>
-                    <p style="font-size: 1.1em; line-height: 1.6;">Electrical & Automation Engineer with 7+ years of experience in automation systems, robotics, and AI. Passionate about innovative solutions and always open to discussing new projects and opportunities. <br><br>
-                    His journey in the field of Electrical and Electronics Engineering has been driven by a commitment to innovation and excellence. He is dedicated to leveraging his skills in automation and robotics to create impactful solutions that enhance efficiency and productivity.</p>
+                    <p style="font-size: 1.1em; line-height: 1.6;">Electrical & Automation Engineer with 8+ years of
+                        experience in automation systems, robotics, and AI. Passionate about innovative solutions and
+                        always open to discussing new projects and opportunities. <br><br>
+                        His journey in the field of Electrical and Electronics Engineering has been driven by a
+                        commitment to innovation and excellence. He is dedicated to leveraging his skills in automation
+                        and robotics to create impactful solutions that enhance efficiency and productivity.</p>
                     <div class="footer-social-links" style="margin-top: 20px;">
-                        <a href="https://www.linkedin.com/in/pradiptasaha999/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/pradiptasaha999" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://scholar.google.com/citations?user=1oJ4CjgAAAAJ&hl=en" aria-label="GitHub"><i class="fa-solid fa-user-graduate"></i></a>
+                        <a href="https://www.linkedin.com/in/pradiptasaha999/" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/pradiptasaha999" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=1oJ4CjgAAAAJ&hl=en"
+                            aria-label="Google Scholar"><i class="fas fa-bookmark"></i></a>
 
                     </div>
                 </div>
@@ -499,5 +559,27 @@
     </script>
 
 </body>
+
+
+<script>
+    const themeToggle = document.getElementById('themeToggle');
+    const icon = themeToggle.querySelector('i');
+
+    // Load saved theme
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark');
+        icon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+        const isDark = document.body.classList.contains('dark');
+
+        icon.classList.toggle('fa-moon', !isDark);
+        icon.classList.toggle('fa-sun', isDark);
+
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+</script>
 
 </html>

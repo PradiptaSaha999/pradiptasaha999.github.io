@@ -41,6 +41,110 @@ ul {
     list-style: none;
 }
 
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --text-muted: #555;
+    --card-bg: #ffffff;
+    --light-gray: #f5f7fa;
+    --accent-color: #3498db;
+    --border-soft: rgba(0, 0, 0, 0.08);
+}
+
+body.dark {
+    --bg-color: #0f172a;
+    --text-color: #e5e7eb;
+    --text-muted: #cbd5f5;
+    --card-bg: #111827;
+    --light-gray: #020617;
+    --accent-color: #60a5fa;
+    --border-soft: rgba(148, 163, 184, 0.18);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+p {
+    color: #333;
+}
+
+/* DARK MODE */
+body.dark p {
+    color: #f1f5f9;
+}
+
+body.dark span,
+body.dark li {
+    color: #cbd5f5;
+}
+
+
+body.dark header,
+body.dark footer,
+body.dark section {
+    background-color: var(--bg-color);
+}
+
+
+/* Dark mode only */
+body.dark .project-card,
+body.dark .info-card,
+body.dark .pub-item {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-soft);
+}
+
+
+body.dark .footer-col {
+    background-color: var(--card-bg);
+}
+
+
+body.dark .timeline-content .company-name {
+    color: #fff;
+}
+
+
+a,
+.social-icons i,
+.footer-social-links i {
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+/* THEME TOGGLE */
+.theme-toggle-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+#themeToggle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: var(--card-bg);
+    color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+#themeToggle:hover {
+    transform: scale(1.05);
+}
+
+body.dark #themeToggle {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+
+
 /* --- LAYOUT UTILITIES --- */
 .container {
     max-width: 1300px;
@@ -118,6 +222,39 @@ nav {
     cursor: pointer;
     color: var(--text-color);
 }
+
+
+/* ================= DARK MODE NAV ================= */
+
+body.dark header {
+    background: rgba(2, 6, 23, 0.92);
+    /* dark slate */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+body.dark .logo {
+    color: #f8fafc;
+}
+
+body.dark .nav-links a {
+    color: #e5e7eb;
+}
+
+body.dark .nav-links a:hover {
+    color: var(--accent-color);
+}
+
+body.dark .hamburger {
+    color: #e5e7eb;
+}
+
+body.dark .nav-links {
+    background: rgba(2, 6, 23, 0.92);
+    backdrop-filter: blur(10px);
+}
+
+
 
 /* --- HERO SECTION --- */
 #home {
@@ -356,7 +493,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     flex: 1 1 320px;
-    max-width: 400px; 
+    max-width: 400px;
     width: 100%;
 }
 
